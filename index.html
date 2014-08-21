@@ -1,1 +1,998 @@
-<h1>Emerging Tech Weekender</h1>
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+      <meta charset="utf-8">
+      <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+      <!-- ///  page title  /// -->
+      <title>Business Event</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- /// font icons  /// -->
+      <link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/fonts/linecons/css/linecons.css">
+      <!-- ///  google fonts  /// -->
+      <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+      <!-- ///  animate.css  /// -->
+      <link rel="stylesheet" type="text/css" href="assets/css/plugins/animate/animate.css">
+      <!-- ///  bootstrap-select.css /// -->
+      <link rel="stylesheet" type="text/css" href="assets/css/plugins/select/bootstrap-select.css">
+      <!-- ///  bootstrap.css  /// -->
+      <link rel="stylesheet" type="text/css" href="bootstrap-3.1.1/css/bootstrap.css">      
+      <!-- ///  main CSS file  /// -->        
+      <link rel="stylesheet" type="text/css" href="assets/css/main.css">        
+  </head>
+  <body class="remove-scroll">
+    <!-- ///  preloader  /// -->
+    <div class="preloader">
+      <img src="assets/img/loader.GIF" class="loader" alt="">
+    </div>        
+    <!-- ///  begin header  /// -->
+    <header class="main-header">
+      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><i class="fa fa-signal success-color"></i> Business <b>Event</b></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right" id="nav">
+              <li class="active"><a href="#home">Home</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#multimedia">Video & Photo</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#speakers">Speakers</a></li>
+              <li><a href="#price">Price</a></li>
+              <li><a href="#faqSection">FAQ</a></li>
+              <li><a href="#ourLocation">Contacts</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+    <!-- ///  end header  /// -->
+    
+    <!-- ///  begin content  /// -->
+
+    <!-- ///  begin promo  /// -->
+    <div class="promo" id="home" style="background-image:url(assets/img/bg/promo.jpg);">
+      <!-- ///  semitransparent layer  /// -->
+      <div class="color-correction"></div> 
+      <!-- ///  begin entry  /// -->         
+      <div class="container">
+        <div class="row">
+          <!-- ///  begin text section  /// -->
+          <div class="col-md-6 wow fadeInDown" data-wow-duration="2s">
+            <div class="promo-text">
+              <h1><i class="fa fa-signal success-color"></i> Business <b>Event</b></h1>
+              <hr>                  
+              <p class="lead">Ratione, quasi, enim voluptates porro voluptas quaerat recusandae reprehenderit vitae aliquid earum ex quo assumenda doloremque ea dolores maxime error suscipit exercitationem.</p>                  
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <!-- ///  end text section  /// -->
+          <!-- ///  begin registration form  /// -->
+          <div class="col-md-4 col-md-offset-2 wow fadeInUp" data-wow-duration="2s">
+            <div class="register">
+              <form role="form" method="POST" id="registrationForm">
+                <div class="form-group">                      
+                  <input type="text" id="regName" name="name" data-validation="length" data-validation-length="min4" class="form-control input-lg" placeholder="Name">
+                </div>
+                <div class="form-group">                      
+                  <input type="email" id="regMail" name="email" data-validation="email" class="form-control input-lg" placeholder="Email">
+                </div>
+                <div class="form-group">                      
+                  <input type="text" id="regPhone" name="phone" data-validation="required" class="form-control input-lg" placeholder="Phone">
+                </div>
+                <div class="form-group">                      
+                  <select id="regPlan" data-validation="required" class="form-control btn-group-lg selectpicker" name="plan" data-style="btn-empty">
+                    <option value="" disabled selected>Choose a plan</option>
+                    <option value="basic">Basic - 24$</option>
+                    <option value="standart">Standart - 40$</option>
+                    <option value="advance">Advance - 65$</option>
+                    <option value="professional">Professional - 100$</option>
+                  </select>
+                </div>                    
+                <button type="submit" class="btn btn-empty btn-block btn-lg">Register</button>
+              </form>
+              <div class="ok">
+                <p class="icon"><i class="fa-check-circle-o fa fa-5x success-color"></i></p>
+                <h3>Thanks!</h3>
+                <p class="lead">Register complite</p>
+                <button type="button" class="btn btn-warning" id="back">Back</button>
+              </div>
+            </div>
+          </div>
+          <!-- ///  end registration form  /// -->
+        </div>            
+      </div>
+      <!-- ///  end entry  /// -->
+    </div>       
+    <!-- ///  end promo  /// --> 
+    
+    <!-- ///  begin countdown  /// -->
+    <div class="counter">
+      <div class="container">
+        <div class="row">
+          <!-- ///  digits  /// -->
+          <div class="col-md-8">
+            <!-- ///  to start the countdown the only requirement is the data-date attribute /// -->
+            <div class="row" id="countdown" data-date="2015/07/26">
+              <div class="col-md-3 count-digits wow fadeInDown" data-wow-delay="1s">
+                <p id="days">20</p>
+                <span class="lead">Days</span>
+              </div>
+              <div class="col-md-3 count-digits wow fadeInDown" data-wow-delay="1.2s">
+                <p id="hours">16</p>
+                <span class="lead">Hours</span>
+              </div>
+              <div class="col-md-3 count-digits wow fadeInDown" data-wow-delay="1.4s">
+                <p id="minutes">10</p>
+                <span class="lead">Minutes</span>
+              </div>
+              <div class="col-md-3 count-digits wow fadeInDown" data-wow-delay="1.6s">
+                <p id="seconds">10</p>
+                <span class="lead">Seconds</span>
+              </div>
+            </div>
+          </div>                      
+          <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="1.8s">
+            <h1>Coach Conference</h1>
+            <p class="lead">
+              CHICAGO, ILLINOIS <br> 
+              MAY 15-17, 2014
+            </p>
+            <ul class="list-inline join-us">
+                <li><a href="" class="btn btn-empty-inverse btn-lg"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="" class="btn btn-empty-inverse btn-lg"><i class="fa fa fa-twitter"></i></a></li>
+                <li><a href="" class="btn btn-empty-inverse btn-lg"><i class="fa fa-facebook"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ///  end countdown  /// -->
+    
+    <!-- ///  begin schedule  /// -->
+    <div class="schedule" id="schedule">
+      <div class="container"> 
+        <div class="section-heading">
+          <h1>Schedule</h1>
+          <p class="lead">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="row">              
+          <div class="col-md-12 wow fadeInDown">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a href="#first-day" data-toggle="tab">May, 15</a></li>
+              <li><a href="#second-day" data-toggle="tab">May, 16</a></li>
+              <li><a href="#third-day" data-toggle="tab">May, 17</a></li>              
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane active" id="first-day">
+                <div class="panel-group" id="accordion">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                          10:00 am - 12:00 am
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <h4>Dolor Ipsum Solor</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fuga delectus nam quia omnis accusamus autem temporibus iure cum voluptatem rerum neque quisquam sed provident similique quis natus fugiat id.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                          12:00 am - 15:00 pm
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <h4>Dolor Ipsum Solor</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fuga delectus nam quia omnis accusamus autem temporibus iure cum voluptatem rerum neque quisquam sed provident similique quis natus fugiat id.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                          15:00 pm - 17:00 pm
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <h4>Dolor Ipsum Solor</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fuga delectus nam quia omnis accusamus autem temporibus iure cum voluptatem rerum neque quisquam sed provident similique quis natus fugiat id.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                          17:00 pm - 19:00 pm
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <h4>Dolor Ipsum Solor</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fuga delectus nam quia omnis accusamus autem temporibus iure cum voluptatem rerum neque quisquam sed provident similique quis natus fugiat id.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>                          
+              </div>
+              <div class="tab-pane" id="second-day">
+                <div class="panel-group" id="accordion2">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
+                          11:00 am - 12:00 am
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseOne2" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <h4>Dolor Ipsum Solor</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fuga delectus nam quia omnis accusamus autem temporibus iure cum voluptatem rerum neque quisquam sed provident similique quis natus fugiat id.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo2">
+                          12:00 am - 14:30 pm
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseTwo2" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <h4>Dolor Ipsum Solor</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fuga delectus nam quia omnis accusamus autem temporibus iure cum voluptatem rerum neque quisquam sed provident similique quis natus fugiat id.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                          14:30 pm - 18:00 pm
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseThree2" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <h4>Dolor Ipsum Solor</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fuga delectus nam quia omnis accusamus autem temporibus iure cum voluptatem rerum neque quisquam sed provident similique quis natus fugiat id.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="tab-pane" id="third-day">
+                <div class="panel-group" id="accordion3">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion3" href="#collapseOne3">
+                          11:00 am - 12:00 am
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseOne3" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <h4>Dolor Ipsum Solor</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fuga delectus nam quia omnis accusamus autem temporibus iure cum voluptatem rerum neque quisquam sed provident similique quis natus fugiat id.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion3" href="#collapseTwo3">
+                          12:00 am - 14:30 pm
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseTwo3" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <h4>Dolor Ipsum Solor</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fuga delectus nam quia omnis accusamus autem temporibus iure cum voluptatem rerum neque quisquam sed provident similique quis natus fugiat id.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion3" href="#collapseThree3">
+                          14:30 pm - 18:00 pm
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseThree3" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <h4>Dolor Ipsum Solor</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fuga delectus nam quia omnis accusamus autem temporibus iure cum voluptatem rerum neque quisquam sed provident similique quis natus fugiat id.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>                 
+            </div>                
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ///  end schedule  /// -->
+
+    <!-- ///  begin video  /// -->
+    <div class="multimedia" id="multimedia">
+      <div class="container">            
+        <div class="row mt20">
+          <div class="col-md-6 wow fadeInLeft">
+            <div class="video">
+              <iframe src="//player.vimeo.com/video/77790506?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6 wow fadeInRight">
+            <h1>Video</h1>
+            <p class="lead">lorem ipsum</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, ea, illum, consequatur, sunt rem unde odio debitis veritatis porro dolores ipsam repudiandae officia praesentium vitae cupiditate perferendis possimus laboriosam ducimus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ///  end video  /// -->
+
+    <!-- ///  begin photos  /// -->
+    <div class="photo">
+      <div class="container">            
+        <div class="row mt20">
+          <div class="col-md-6 wow fadeInLeft">
+            <h1>Latest Photos</h1>
+            <p class="lead">lorem ipsum</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, ea, illum, consequatur, sunt rem unde odio debitis veritatis porro dolores ipsam repudiandae officia praesentium vitae cupiditate perferendis possimus laboriosam ducimus.</p>
+          </div>
+          <div class="col-md-6 wow fadeInRight">
+            <div class="photo-wrapper">
+              <div id="photoSlider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">                      
+                  <div class="item active">
+                    <img src="assets/img/carousel/slide.jpg" alt="">
+                  </div>                      
+                  <div class="item">
+                    <img src="assets/img/carousel/slide3.jpg" alt="">
+                  </div>
+                </div>
+              </div>   
+            </div>
+            <div class="text-center">
+              <div class="btn-group">
+                <a href="#photoSlider" data-slide="prev" class="btn btn-empty-inverse">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#photoSlider" data-slide="next" class="btn btn-empty-inverse">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+              </div>                  
+            </div>                                             
+          </div>              
+        </div>
+      </div>
+    </div>
+    <!-- ///  end photos  /// -->
+
+    <!-- ///  begin features  /// -->
+    <div class="theses" id="features">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 wow bounceIn" data-wow-delay=".4s">
+            <div class="icon-wrap">
+              <i class="icon-graduation-cap fa-3x"></i>
+            </div>
+            <h3>Lorem</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, nulla, autem eveniet magnam facere tempora</p>
+          </div>
+          <div class="col-md-3 wow bounceIn" data-wow-delay=".6s">
+            <div class="icon-wrap">
+              <i class="icon-lightbulb fa-3x"></i>
+            </div>
+            <h3>Lorem</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, nulla, autem eveniet magnam facere tempora</p>
+          </div>
+          <div class="col-md-3 wow bounceIn" data-wow-delay=".8s">
+            <div class="icon-wrap">
+              <i class="icon-videocam fa-3x"></i>
+            </div>
+            <h3>Lorem</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, nulla, autem eveniet magnam facere tempora</p>
+          </div>
+          <div class="col-md-3 wow bounceIn" data-wow-delay="1s">
+            <div class="icon-wrap">
+              <i class="icon-paper-plane fa-3x"></i>
+            </div>
+            <h3>Lorem</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, nulla, autem eveniet magnam facere tempora</p>
+          </div>              
+        </div>
+      </div>
+    </div>
+    <!-- ///  end features  /// -->
+    
+    <!-- ///  begin speakers  /// -->
+    <div class="speakers" id="speakers">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Speakers</h1>
+          <p class="lead">Lorem ipsum dolor sit amet</p>
+        </div> 
+        <div class="row">
+          <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1s">
+            <div class="speaker-img">
+              <img src="assets/img/speakers/1.jpg" alt="">
+              <a href="" class="speaker-contacts left-top"><i class="fa fa-google-plus fa-2x"></i></a> 
+              <a href="" class="speaker-contacts left-bottom"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-bottom"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-top"><i class="fa fa-envelope fa-2x"></i></a>
+            </div>
+            <div class="speaker-desc">
+              <p>Tyler Durden</p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div>
+          </div>
+          <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1.1s">
+            <div class="speaker-img">
+              <img src="assets/img/speakers/2.jpg" alt="">
+              <a href="" class="speaker-contacts left-top"><i class="fa fa-google-plus fa-2x"></i></a> 
+              <a href="" class="speaker-contacts left-bottom"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-bottom"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-top"><i class="fa fa-envelope fa-2x"></i></a>
+            </div>
+            <div class="speaker-desc">
+              <p>Harry Callahan</p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div>
+          </div>
+          <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1.2s">
+            <div class="speaker-img">
+              <img src="assets/img/speakers/3.jpg" alt="">
+              <a href="" class="speaker-contacts left-top"><i class="fa fa-google-plus fa-2x"></i></a> 
+              <a href="" class="speaker-contacts left-bottom"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-bottom"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-top"><i class="fa fa-envelope fa-2x"></i></a>
+            </div>
+            <div class="speaker-desc">
+              <p>Amelie Poulain</p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1s">
+            <div class="speaker-img">
+              <img src="assets/img/speakers/4.jpg" alt="">
+              <a href="" class="speaker-contacts left-top"><i class="fa fa-google-plus fa-2x"></i></a> 
+              <a href="" class="speaker-contacts left-bottom"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-bottom"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-top"><i class="fa fa-envelope fa-2x"></i></a>
+            </div>
+            <div class="speaker-desc">
+              <p>Mal Reynolds</p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div>
+          </div>
+          <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1.1s">
+            <div class="speaker-img">
+              <img src="assets/img/speakers/5.jpg" alt="">
+              <a href="" class="speaker-contacts left-top"><i class="fa fa-google-plus fa-2x"></i></a> 
+              <a href="" class="speaker-contacts left-bottom"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-bottom"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-top"><i class="fa fa-envelope fa-2x"></i></a>
+            </div>
+            <div class="speaker-desc">
+              <p>Samantha Baker</p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div>
+          </div>
+          <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1.2s">
+            <div class="speaker-img">
+              <img src="assets/img/speakers/6.jpg" alt="">
+              <a href="" class="speaker-contacts left-top"><i class="fa fa-google-plus fa-2x"></i></a> 
+              <a href="" class="speaker-contacts left-bottom"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-bottom"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-top"><i class="fa fa-envelope fa-2x"></i></a>
+            </div>
+            <div class="speaker-desc">
+              <p>George Bailey</p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1s">
+            <div class="speaker-img">
+              <img src="assets/img/speakers/7.jpg" alt="">
+              <a href="" class="speaker-contacts left-top"><i class="fa fa-google-plus fa-2x"></i></a> 
+              <a href="" class="speaker-contacts left-bottom"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-bottom"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-top"><i class="fa fa-envelope fa-2x"></i></a>
+            </div>
+            <div class="speaker-desc">
+              <p>Karen Silkwood</p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div>
+          </div>
+          <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1.1s">
+            <div class="speaker-img">
+              <img src="assets/img/speakers/8.jpg" alt="">
+              <a href="" class="speaker-contacts left-top"><i class="fa fa-google-plus fa-2x"></i></a> 
+              <a href="" class="speaker-contacts left-bottom"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-bottom"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-top"><i class="fa fa-envelope fa-2x"></i></a>
+            </div>
+            <div class="speaker-desc">
+              <p>Brick Tamland</p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div>
+          </div>
+          <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1.2s">
+            <div class="speaker-img">
+              <img src="assets/img/speakers/9.jpg" alt="">
+              <a href="" class="speaker-contacts left-top"><i class="fa fa-google-plus fa-2x"></i></a> 
+              <a href="" class="speaker-contacts left-bottom"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-bottom"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="" class="speaker-contacts right-top"><i class="fa fa-envelope fa-2x"></i></a>
+            </div>
+            <div class="speaker-desc">
+              <p>Briony Tallis</p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div>
+          </div>
+        </div>         
+      </div>
+    </div>
+    <!-- ///  end speakers  /// -->
+
+    <!-- ///  begin testimonials  /// -->
+    <div class="testimonials wow flipInX" style="background-image: url(assets/img/bg/smiling-portraits.jpg)">
+      <div class="color-correction"></div>
+      <div class="container">
+        <div class="row">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">  
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">      
+                <div class="carousel-caption">
+                  <blockquote>                        
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="item">      
+                <div class="carousel-caption">
+                  <blockquote>                        
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="item">      
+                <div class="carousel-caption">
+                  <blockquote>                        
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                </div>
+              </div>                  
+            </div>              
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>                            
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!-- ///  end testimonials  /// -->
+    
+    <!-- ///  begin price  /// -->
+    <div class="price" id="price">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Pricing Tables</h1>
+          <p class="lead">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 gray-bg wow fadeInDown" data-wow-delay=".4s">
+            <header class="price-header">
+              <h4>Basic</h4>
+              <p>24$</p>
+            </header>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <p class="pull-left">One day success</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li> 
+              <li class="list-group-item">
+                <p class="pull-left">Coffee Break</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li> 
+              <li class="list-group-item">
+                <p class="pull-left">Seat</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li>    
+              <li class="list-group-item">
+                <p class="pull-left">Certificate</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li> 
+              <li class="list-group-item">
+                <p class="pull-left">Lorem</p>
+                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+              </li>
+              <li class="list-group-item">
+                <p class="pull-left">Ipsum</p>
+                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+              </li>
+              <li class="list-group-item">
+                <p class="pull-left">Dolor</p>
+                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+              </li>
+              <li class="list-group-item">
+                <p class="pull-left">Sit</p>
+                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+              </li>                              
+            </ul>                                
+          </div>
+          <div class="col-sm-3 gray-bg wow fadeInUp" data-wow-delay=".8s">
+            <header class="price-header">
+              <h4>Standart</h4>
+              <p>40$</p>
+            </header>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <p class="pull-left">One day success</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li> 
+              <li class="list-group-item">
+                <p class="pull-left">Coffee Break</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li> 
+              <li class="list-group-item">
+                <p class="pull-left">Seat</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li>    
+              <li class="list-group-item">
+                <p class="pull-left">Certificate</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li> 
+              <li class="list-group-item">
+                <p class="pull-left">Lorem</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li>
+              <li class="list-group-item">
+                <p class="pull-left">Ipsum</p>
+                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+              </li>
+              <li class="list-group-item">
+                <p class="pull-left">Dolor</p>
+                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+              </li>
+              <li class="list-group-item">
+                <p class="pull-left">Sit</p>
+                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+              </li>                              
+            </ul>                
+          </div>
+          <div class="col-sm-3 gray-bg wow fadeInDown" data-wow-delay="1.2s">
+            <header class="price-header">
+              <h4>Advance</h4>
+              <p>65$</p>
+            </header>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <p class="pull-left">One day success</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li> 
+              <li class="list-group-item">
+                <p class="pull-left">Coffee Break</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li> 
+              <li class="list-group-item">
+                <p class="pull-left">Seat</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li>    
+              <li class="list-group-item">
+                <p class="pull-left">Certificate</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li>
+              <li class="list-group-item">
+                <p class="pull-left">Lorem</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li>
+              <li class="list-group-item">
+                <p class="pull-left">Ipsum</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li>
+              <li class="list-group-item">
+                <p class="pull-left">Dolor</p>
+                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+              </li>
+              <li class="list-group-item">
+                <p class="pull-left">Sit</p>
+                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+              </li>                               
+            </ul>                
+          </div>
+          <div class="col-sm-3 gray-bg wow fadeInUp" data-wow-delay="1.6s">
+            <header class="price-header">
+              <h4>Professional</h4>
+              <p>100$</p>
+            </header>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <p class="pull-left">One day success</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li> 
+              <li class="list-group-item">
+                <p class="pull-left">Coffee Break</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li> 
+              <li class="list-group-item">
+                <p class="pull-left">Seat</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li>    
+              <li class="list-group-item">
+                <p class="pull-left">Certificate</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li> 
+              <li class="list-group-item">
+                <p class="pull-left">Lorem</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li>
+              <li class="list-group-item">
+                <p class="pull-left">Ipsum</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li>
+              <li class="list-group-item">
+                <p class="pull-left">Dolor</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li>
+              <li class="list-group-item">
+                <p class="pull-left">Sit</p>
+                <p class="pull-right"><i class="fa fa-check fa-lg"></i></p>
+              </li>                              
+            </ul>                
+          </div>              
+        </div>
+      </div>
+    </div>
+    <!-- ///  end price  /// -->
+    
+    <!-- ///  begin faq  /// -->
+    <div class="faq" id="faqSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 wow fadeInLeft">
+            <h1>FAQ</h1>
+            <p class="lead">Lorem ipsum dolor sit amet</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, officiis, nisi temporibus reiciendis possimus inventore fugit. Natus, omnis, earum consectetur aperiam harum sequi qui soluta deserunt provident maxime voluptate dolores.</p>
+          </div>
+          <div class="col-md-8 wow fadeInRight">
+            <div class="panel-group" id="faq">
+              <div class="panel">
+                <a data-toggle="collapse" data-parent="#faq" href="#faq1">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit?
+                </a>
+                <div id="faq1" class="panel-collapse collapse">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, perferendis facere non laudantium nostrum odit corporis repudiandae voluptas dolorem consequuntur! Assumenda, eveniet, voluptates quos id at facilis perferendis obcaecati recusandae?</p>
+                </div>
+              </div>
+              <div class="panel">
+                <a data-toggle="collapse" data-parent="#faq" href="#faq2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit?
+                </a>
+                <div id="faq2" class="panel-collapse collapse">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, perferendis facere non laudantium nostrum odit corporis repudiandae voluptas dolorem consequuntur! Assumenda, eveniet, voluptates quos id at facilis perferendis obcaecati recusandae?</p>
+                </div>
+              </div>
+              <div class="panel">
+                <a data-toggle="collapse" data-parent="#faq" href="#faq3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit?
+                </a>
+                <div id="faq3" class="panel-collapse collapse">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, perferendis facere non laudantium nostrum odit corporis repudiandae voluptas dolorem consequuntur! Assumenda, eveniet, voluptates quos id at facilis perferendis obcaecati recusandae?</p>
+                </div>
+              </div>
+              <div class="panel">
+                <a data-toggle="collapse" data-parent="#faq" href="#faq4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit?
+                </a>
+                <div id="faq4" class="panel-collapse collapse">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, perferendis facere non laudantium nostrum odit corporis repudiandae voluptas dolorem consequuntur! Assumenda, eveniet, voluptates quos id at facilis perferendis obcaecati recusandae?</p>
+                </div>
+              </div>
+              <div class="panel">
+                <a data-toggle="collapse" data-parent="#faq" href="#faq5">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit?
+                </a>
+                <div id="faq5" class="panel-collapse collapse">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, perferendis facere non laudantium nostrum odit corporis repudiandae voluptas dolorem consequuntur! Assumenda, eveniet, voluptates quos id at facilis perferendis obcaecati recusandae?</p>
+                </div>
+              </div>
+              <div class="panel">
+                <a data-toggle="collapse" data-parent="#faq" href="#faq6">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit?
+                </a>
+                <div id="faq6" class="panel-collapse collapse">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, perferendis facere non laudantium nostrum odit corporis repudiandae voluptas dolorem consequuntur! Assumenda, eveniet, voluptates quos id at facilis perferendis obcaecati recusandae?</p>
+                </div>
+              </div>        
+            </div>                
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ///  end faq  /// -->
+
+    <!-- ///  begin partners  /// -->
+    <div class="partners wow fadeInUp">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Partners</h1>
+          <p class="lead">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <ul class="list-inline">                  
+              <li><img src="assets/img/partners/facebook.png" alt=""></li>
+              <li><img src="assets/img/partners/magento.png" alt=""></li>
+              <li><img src="assets/img/partners/twitter.png" alt=""></li>
+              <li><img src="assets/img/partners/wordpress.png" alt=""></li>
+              <li><img src="assets/img/partners/facebook.png" alt=""></li>
+              <li><img src="assets/img/partners/magento.png" alt=""></li>
+              <li><img src="assets/img/partners/twitter.png" alt=""></li>
+              <li><img src="assets/img/partners/wordpress.png" alt=""></li>
+              <li><img src="assets/img/partners/facebook.png" alt=""></li>
+              <li><img src="assets/img/partners/magento.png" alt=""></li>                  
+              <li><img src="assets/img/partners/facebook.png" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ///  end partners  /// -->
+      
+    <!-- ///  begin map, subscribe, contacts  /// -->
+    <!-- ///  set your venue address in data-location attribute  /// -->
+    <div class="map" id="ourLocation" data-location="West Kinzie, 20, Chicago">
+      <div class="subscribe">
+        <div class="container wow fadeInDown">
+          <div class="row form-wrapper">
+            <div class="col-lg-12 body-bg">
+              <form class="input-group input-group-lg" id="subscribeForm" method="POST">
+                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                <input type="email" class="form-control" data-validation="email" id="sEmail" name="sEmail">
+                <span class="input-group-btn">
+                  <button class="btn btn-info" type="submit">Subscribe</button>
+                </span>                   
+              </form>
+              <span class="help-block danger-color text-center"></span>
+            </div>
+            <div class="ok">
+              <h3>Success!</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 map-container" id="map">                
+          </div>
+        </div>
+      </div>
+      <div class="location wow flipInY">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="popover bottom">
+                <div class="arrow"></div>
+                <h2 class="popover-title">Location</h2>
+                <div class="popover-content">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="street-view" id="streetView"></div>
+                    </div>
+                    <div class="col-sm-6">
+                      <ul class="list-unstyled">
+                        <li><i class="fa fa-map-marker info-color"></i> West Kinzie, 20, Chicago</li>
+                        <li><i class="fa fa-envelope info-color"></i> example@example.com</li>
+                        <li><i class="fa fa-phone info-color"></i> +0 888 9090 909</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ///  end map, subscribe, contacts  /// -->
+    <!-- ///  end content  /// -->
+    
+    <!-- ///  begin footer  /// -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 social text-center">
+            <ul class="list-inline">
+              <li>
+                <a href="#"><i class="fa fa-twitter-square"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-skype"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-xing"></i></a>
+                <a href="#"><i class="fa fa-vimeo-square"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 text-center">
+            <span>All rights reserved</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ///  end footer  /// -->
+
+    <!-- ///  start script  /// -->
+    <!-- ///  libs  /// -->
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>        
+    <script src="assets/js/libs/modernizr-latest.js"></script>        
+    <script src="assets/js/libs/jquery-1.11.0.min.js"></script>     
+    <script src="bootstrap-3.1.1/js/bootstrap.min.js"></script>   
+    <!-- ///  plugins  /// -->
+    <script src="assets/js/plugins/fitvids/jquery.fitvids.js"></script>
+    <script src="assets/js/plugins/select/bootstrap-select.min.js"></script>
+    <script src="assets/js/plugins/gmap3/gmap3.min.js"></script>
+    <script src="assets/js/plugins/scrollTo/jquery.scrollTo.js"></script>
+    <script src="assets/js/plugins/nav/jquery.nav.js"></script>
+    <script src="assets/js/plugins/countdown/countdown.js"></script>
+    <script src="assets/js/plugins/placeholder/jquery.placeholder.js"></script>
+    <script src="assets/js/plugins/validator/jquery.form-validator.min.js"></script>
+    <script src="assets/js/plugins/wow/wow.min.js"></script>        
+    <script src="assets/js/main.js"></script>       
+  </body>
+</html>
