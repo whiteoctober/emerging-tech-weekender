@@ -12,7 +12,7 @@
       <link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/css/font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href="assets/fonts/linecons/css/linecons.css">
       <!-- ///  google fonts  /// -->
-      <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+      <!-- <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'> -->
       <!-- ///  animate.css  /// -->
       <link rel="stylesheet" type="text/css" href="assets/css/plugins/animate/animate.css">
       <!-- ///  bootstrap-select.css /// -->
@@ -20,7 +20,10 @@
       <!-- ///  bootstrap.css  /// -->
       <link rel="stylesheet" type="text/css" href="bootstrap-3.1.1/css/bootstrap.css">      
       <!-- ///  main CSS file  /// -->        
-      <link rel="stylesheet" type="text/css" href="assets/css/main.css">        
+      <link rel="stylesheet" type="text/css" href="assets/css/main.css">  
+
+      <script type="text/javascript" src="//use.typekit.net/omc3djj.js"></script>
+      <script type="text/javascript">try{Typekit.load();}catch(e){}</script>      
   </head>
   <body class="remove-scroll">
     <!-- ///  preloader  /// -->
@@ -45,10 +48,11 @@
           <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav navbar-right" id="nav">
               <li class="active"><a href="#home">Home</a></li>
-              <li><a href="#schedule">Schedule</a></li>
-              <li><a href="#multimedia">Video &amp; Photo</a></li>
-              <li><a href="#features">Features</a></li>
-              <li><a href="#speakers">Speakers</a></li>
+              <li><a href="#schedule">Programme</a></li>
+              <li><a href="#location">Location</a></li>
+              <li><a href="#prize">Prize</a></li>
+              <li><a href="#features">Technologies</a></li>
+              <li><a href="#speakers">Tech Mentors</a></li>
               <!-- <li><a href="#price">Price</a></li>
               <li><a href="#faqSection">FAQ</a></li> -->
               <li><a href="#ourLocation">Contacts</a></li>
@@ -347,7 +351,7 @@
     <!-- ///  end schedule  /// -->
 
     <!-- ///  begin video  /// -->
-    <div class="multimedia" id="multimedia">
+    <div class="multimedia" id="location">
       <div class="container">            
         <div class="row mt20">
           <div class="col-md-6 wow fadeInLeft">
@@ -368,7 +372,7 @@
     <!-- ///  end video  /// -->
 
     <!-- ///  begin photos  /// -->
-    <div class="photo">
+    <div class="photo" id="prize">
       <div class="container">            
         <div class="row mt20">
           <div class="col-md-6 wow fadeInLeft">
@@ -852,19 +856,24 @@
                 <h2 class="popover-title">Location</h2>
                 <div class="popover-content">
                   <div class="row">
-<!--                     <div class="col-sm-6">
-                      <div class="street-view" id="streetView"></div>
-                    </div> -->
-                    <div class="col-sm-12">
+                    <div class="col-sm-6">
+
                       <ul class="list-unstyled">
-                        <li><i class="fa fa-map-marker info-color"></i>
+                      <!-- <div class="street-view" id="streetView"></div> -->
+                      <li><i class="fa fa-map-marker info-color"></i>
                         <br />John Henry Brookes Building<br />
 Oxford Brookes University - Headington Campus<br />
-Oxford OX3 0BP
+Oxford OX3 0BP</li>
+</ul>
 
-
+                        <!-- </li> -->
+                    </div>
+                    <div class="col-sm-6">
+                      <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope info-color"></i> 
+                        <br />
+                        <a href="info@digitaloxford.com">info@digitaloxford.com</a>
                         </li>
-                        <li><i class="fa fa-envelope info-color"></i> info@digitaloxford.com</li>
                         <!-- <li><i class="fa fa-phone info-color"></i> +0 888 9090 909</li> -->
                       </ul>
                     </div>
