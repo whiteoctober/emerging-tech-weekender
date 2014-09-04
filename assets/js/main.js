@@ -37,6 +37,10 @@
                   scrollwheel: false,
                   disableDoubleClickZoom: true
                 }
+              }, 
+              marker:{
+                address: ourAddress,
+                options: {}
               },
               streetviewpanorama: {
                 options: {
