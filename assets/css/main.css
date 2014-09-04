@@ -533,6 +533,7 @@ fieldset[disabled] .btn-link:focus {
 .promo {
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: 100% auto;
   margin-top: 61px;
   position: relative;
 }
