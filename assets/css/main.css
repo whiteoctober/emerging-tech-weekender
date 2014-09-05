@@ -533,7 +533,7 @@ fieldset[disabled] .btn-link:focus {
 .promo {
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% auto;
+  background-size: cover;
   margin-top: 61px;
   position: relative;
 }
@@ -552,6 +552,7 @@ fieldset[disabled] .btn-link:focus {
 .promo .promo-text {
   padding: 60px 0;
   color: #ffffff;
+  text-shadow: #d3114e 0 0 10px;
 }
 .promo .promo-text hr {
   border-top-color: #ffffff;
@@ -704,6 +705,8 @@ fieldset[disabled] .btn-link:focus {
 }
 .schedule .tab-content h4 {
   margin: 10px 0;
+  font-size: 1.75em;
+  font-weight: 300;
 }
 .schedule .panel-group {
   margin-bottom: 0;
@@ -712,7 +715,7 @@ fieldset[disabled] .btn-link:focus {
   display: block;
   text-decoration: none;
   text-align: center;
-  color: #999999;
+  color: #d3114e;
 }
 .schedule .panel-default {
   border-color: #ffffff;
@@ -727,13 +730,13 @@ fieldset[disabled] .btn-link:focus {
 ************************************************/
 .multimedia {
   padding: 60px 0;
-  color: #3c3c3c;
-  background-color: #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-top: 1px solid #eeeeee;
+  color: #fff;
+  background-color: #d3114e;
+  /*border-bottom: 1px solid #eeeeee;*/
+  /*border-top: 1px solid #eeeeee;*/
 }
 .multimedia hr {
-  border-top-color: #3c3c3c;
+  border-top-color: #fff;
 }
 .multimedia .video {
   padding: 20px;
@@ -759,22 +762,24 @@ fieldset[disabled] .btn-link:focus {
 ************************************************/
 .theses {
   padding: 60px 0;
-  background-color: #eeeeee;
-  color: #555555;
+  background-color: #d3114e;
+  color: #fff;
 }
 .theses .icon-wrap {
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  border: 1px solid #555555;
-  border-radius: 3px;
-  margin: 20px auto;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  /*border: 1px solid #555555;*/
+  /*border-radius: 3px;*/
+  margin: 10px auto;
+
+  -webkit-font-smoothing: antialiased;
 }
 .theses p {
   margin-bottom: 20px;
 }
 .theses hr {
-  border-top-color: #555555;
+  border-top-color: #fff;
 }
 /************************************************
 *** speakers ***
@@ -1027,7 +1032,7 @@ fieldset[disabled] .btn-link:focus {
   margin-top: 0;
 }
 .partners .list-inline li {
-  width: 16.66666%;
+  width: 25%;
 }
 @media (max-width: 768px) {
   .partners .list-inline li {
@@ -1038,6 +1043,12 @@ fieldset[disabled] .btn-link:focus {
   display: inline-block;
   max-width: 100%;
   height: auto;
+  margin: 20px;
+}
+
+
+.partners .list-inline > li {
+  padding: 0 30px;
 }
 /************************************************
 *** subscribe ***
@@ -1353,3 +1364,26 @@ fieldset[disabled] .btn-link:focus {
 .remove-scroll {
   overflow: hidden;
 }
+
+
+
+
+/*** responsive fixes ****/
+
+@media (max-width: 768px) {
+  .counter {
+    padding: 0 0;
+  }
+
+
+  .promo .color-correction-xs {
+    position: absolute;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.4);/*rgba(45, 157, 231, 0.4);*/
+    width: 100%;
+    height: 100%;
+    top: 0;
+
+  }
+}
+
