@@ -540,7 +540,7 @@ fieldset[disabled] .btn-link:focus {
 .promo .color-correction {
   position: absolute;
   z-index: 0;
-  background-color: rgba(45, 157, 231, 0.4);
+  background-color: rgba(1, 1, 1, 0.5);
   width: 100%;
   height: 100%;
   top: 0;
@@ -553,6 +553,7 @@ fieldset[disabled] .btn-link:focus {
   padding: 60px 0;
   color: #ffffff;
   text-shadow: #d3114e 0 0 10px;
+  opacity: 0.7;
 }
 .promo .promo-text hr {
   border-top-color: #ffffff;
@@ -560,7 +561,7 @@ fieldset[disabled] .btn-link:focus {
 .promo .register {
   padding: 20px;
   margin: 60px 0;
-  background-color: rgba(0, 0, 0, 0.1);
+  /*background-color: rgba(0, 0, 0, 0.1);*/
   color: #ffffff;
   text-align: center;
   position: relative;
