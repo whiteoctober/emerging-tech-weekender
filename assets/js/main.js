@@ -79,7 +79,8 @@
           scrollSpeed: 600,
           scrollOffset: 60,
           scrollThreshold: 0.2,
-          easing: 'swing'
+          easing: 'swing',
+          filter: ':not(.external)'
         })
       }
     }
