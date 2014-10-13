@@ -848,6 +848,10 @@ fieldset[disabled] .btn-link:focus {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+
+  /* prevent transition artifacts */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .speakers .speaker-contacts i {
   line-height: 50px;
