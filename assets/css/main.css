@@ -129,6 +129,20 @@ h1 {
 .lead {
   font-weight: 300;
 }
+
+.strapline {
+  float: left;
+  width: 60%;
+  padding-top: 2.5em;
+  font-size: 1.45em;
+  font-weight: 200;
+}
+
+.strapline span {
+  color: rgba(54, 215, 183, 0.52);
+  padding: 0 0.25em; 
+}
+
 /************************************************
 *** buttons ***
 ************************************************/
