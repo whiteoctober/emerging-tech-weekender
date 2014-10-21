@@ -1115,6 +1115,11 @@ pre code {
   .col-md-4 {
     width: 33.33333333%;
   }
+
+  .col-md-4.date {
+    float: right;
+  }
+
   .col-md-3 {
     width: 25%;
   }
@@ -5782,4 +5787,16 @@ button.close {
     display: none !important;
   }
 }
+
+
+.strapline {
+  float: left;
+  padding-top: 1em;
+  width: 60%;
+  font-size: 1.75em;
+
+}
+
+
+
 /*# sourceMappingURL=bootstrap.css.map */
