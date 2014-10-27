@@ -796,6 +796,29 @@ fieldset[disabled] .btn-link:focus {
 .theses hr {
   border-top-color: #fff;
 }
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list li {
+  margin-bottom: .75em;
+  padding-bottom: .75em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.31);
+}
+
+
+.list a {
+  color: #fff;
+  font-weight: 200;
+}
+
+.list a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
 /************************************************
 *** speakers ***
 ************************************************/
