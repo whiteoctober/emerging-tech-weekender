@@ -4547,8 +4547,8 @@ a.thumbnail.active {
   background-size: 40px 40px;
 }
 .progress.active .progress-bar {
-  -webkit-animation: progress-bar-stripes 2s linear infinite;
-          animation: progress-bar-stripes 2s linear infinite;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+          animation: progress-bar-stripes 1s linear infinite;
 }
 .progress-bar-success {
   background-color: #5cb85c;

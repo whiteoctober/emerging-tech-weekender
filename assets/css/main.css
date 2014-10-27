@@ -858,9 +858,9 @@ fieldset[disabled] .btn-link:focus {
   text-align: center;
 }
 .speakers .speaker-img img {
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
   border-radius: 50%;
   padding: 10px;
   border: 1px solid #eeeeee;
@@ -882,9 +882,9 @@ fieldset[disabled] .btn-link:focus {
   display: block;
   text-align: center;
   z-index: 1;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 
   /* prevent transition artifacts */
   -webkit-backface-visibility: hidden;
