@@ -797,6 +797,10 @@ fieldset[disabled] .btn-link:focus {
   border-top-color: #fff;
 }
 
+.theses a {
+  color: #fff;
+}
+
 .list {
   list-style: none;
   padding-left: 0;
